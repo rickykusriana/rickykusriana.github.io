@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>rickykusriana.github.io</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>rickykusriana.github.io</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="author" content="Ricky Kusriana Subagja">
+    <meta name='description' content='Memperkenalkan website blog gratis dengan sistem manajemen konten (CMS) sederhana. Buat blog pribadimu dengan KodoKode. Download dan cobalah sekarang :)'>
+    <meta name='keywords' content='KodoKode, rickykusriana, rickykusriana.blogspot.com, KodoKode, cms website blog, cms blog gratis, blog cms gratis, cms web gratis, cms gratis sederhana, website portal gratis, web blog sederhana, ricky kusriana subagja'>
+    <link rel="shortcut icon" href="assets/r.png">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/maxcdn.css">
 </head>
+
 <body>
-	<code>
-		Hi, welcome to my site
-	</code>
+    <p class="title">
+        content will be available soon
+    </p>
+    <p class="subtitle">
+        when you feel like giving up <font color="red">remember</font> why you held on for so long in the first place
+    </p>
+
+    <ul class="countdown">
+        <p class="footer">ready for the remaining time</p>
+        <li>
+            <span class="days">00</span>
+            <p class="days_ref">days</p>
+        </li>
+        <li class="seperator">.</li>
+        <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">hours</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">minutes</p>
+        </li>
+        <li class="seperator">:</li>
+        <li>
+            <span class="seconds">00</span>
+            <p class="seconds_ref">seconds</p>
+        </li>
+    </ul>
+
+    <div align="center" class="socialbtns">
+        <p class="footer">
+            stay connected with
+        </p>
+        <ul>
+            <li><a title="Facebook" target="_blank" href="http://facebook.com/rickykusriana" class="fa fa-lg fa-facebook"></a></li>
+            <li><a title="Twitter" target="_blank" href="http://twitter.com/rickykusriana" class="fa fa-lg fa-twitter"></a></li>
+            <li><a title="Google+" target="_blank" href="http://plus.google.com/+RickyKusrianaSubagja" class="fa fa-lg fa-google-plus"></a></li>
+            <li><a title="Instagram" target="_blank" href="http://instagram.com/rickykusriana" class="fa fa-lg fa-instagram"></a></li>
+            <li><a title="Blog" target="_blank" href="http://rickykusriana.blogspot.com" class="fa fa-lg fa-rss"></a></li>
+            <li><a title="Website" target="_blank" href="http://kodokode.com" class="fa fa-lg fa-globe"></a></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="assets/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery.downCount.js"></script>
+
+    <script type="text/javascript">
+        $('.countdown').downCount({
+            date: '2018/06/30 05:07:00',
+            offset: +10
+        }, function () {
+            alert('Done!');
+        });
+    </script>
+
 </body>
-</html>
+</html>		

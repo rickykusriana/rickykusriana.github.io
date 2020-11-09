@@ -28,11 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/metro-4.2.19/mif/metro.woff"
   },
   {
-    "revision": "d593a9f72d37a6975b8588945fe46698",
-    "url": "/icon.png"
-  },
-  {
-    "revision": "5cb506da6e62f45912f1be869a873e03",
+    "revision": "e6ce675b83c2aa183502c5b03f7060ca",
     "url": "/index.html"
   },
   {
@@ -44,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/chunk-vendors.edbc48c5.js"
   },
   {
-    "revision": "8f8bf727cfbe8ead69d535bc9246525d",
+    "revision": "07be488420ee7a38be9520d7aec07269",
     "url": "/manifest.json"
   },
   {
